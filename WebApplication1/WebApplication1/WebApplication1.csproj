@@ -66,6 +66,7 @@
       <DependentUpon>s_l.mdf</DependentUpon>
     </Content>
     <Content Include="q3b\home.aspx" />
+    <Content Include="q3b\login.aspx" />
     <Content Include="sessional paper 2_Q_3_%28b%29\Delete.aspx" />
     <Content Include="sessional paper 2_Q_3_%28b%29\Update.aspx" />
     <Content Include="Web.config" />
@@ -78,6 +79,12 @@
     </Compile>
     <Compile Include="q3b\home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="q3b\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="q3b\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="sessional paper 2_Q_3_%28b%29\Delete.aspx.cs">
       <DependentUpon>Delete.aspx</DependentUpon>
